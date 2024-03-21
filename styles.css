@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
+
+:root{
+    /* Fonts */
+    --font: "Fragment Mono";
+
+    /* Colors */
+    --color1: #003140;
+    --color2: #00629e;
+    --color3: #00caff;
+    --color4: #00f7ff;
+    --color5: #84ffe2;
+
+    /* Utilities */
+    --cardBoxShadow: 2px 1px 4px 3px rgba(0, 0, 0, 25%);
+}
+/* Resettign global configuration */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit; /*inherits from html*/
+}
+
+body {
+    font-family: var(--font);
+    font-size: 100%;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    position: relative;
+    z-index: 1000;
+}
+
+h2 {
+    font-size: 27px
+}
+
+h3 {
+    font-size: 21px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background: linear-gradient(to right, #00000042, #00000042), url("data_analysis.avif") no-repeat top;
+    background-size: cover;
+}
+
+.head_title{
+    color: white;
+}
