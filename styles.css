@@ -37,12 +37,10 @@ body {
 
 h1 {
     font-size: 36px;
-    position: relative;
-    z-index: 1000;
 }
 
 h2 {
-    font-size: 27px
+    font-size: 27px;
 }
 
 h3 {
@@ -53,14 +51,197 @@ img {
     max-width: 100%;
 }
 
+.inline_spacing{
+    line-height: 1.5;
+}
+
 .header{
     width: 100%;
     height: 100vh;
     background-color: black;
     background: linear-gradient(to right, #00000042, #00000042), url("data_analysis.avif") no-repeat top;
     background-size: cover;
+    position: relative;
+}
+
+.navbar_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding: 30px 0px;
+    align-items: center;
+    background-color: var(--color1);
+    color: white;
+    z-index: 1000;
+    /* position: fixed; */
+}
+
+
+.logo figure img{
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0% 0% 0% 10%;
 }
 
 .head_title{
     color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.navbar_container_element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    list-style: None;
+    margin: 0% 0% 0% 10%;
+}
+
+.navbar_container_subelement{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar_container_subelement a, navbar_container_subelement a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.section_projects{
+    text-align: center;
+}
+
+.used_technologies{
+    text-align: center;
+}
+
+.general_text{
+    text-align: center;
+}
+
+.section__contact{
+    text-align: center;
+}
+
+.rights_text{
+    text-align: center;
+}
+
+.section_projects_title{
+    margin: 5%;
+}
+
+.container_projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.container_projects_element{
+    box-shadow: var(--cardBoxShadow);
+    border-radius: 10px;
+    flex: 0 0 calc((100% - 20px)/3);
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.container_projects_element_figure_figure{
+    width: 100%;
+}
+
+.container_projects_element_figure_figure img{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container_projects_element_text{
+    margin: 5% 5%;
+}
+
+.general_text{
+    margin: 5% 15%;
+}
+
+.tech_logos{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    gap: 5px;
+}
+
+.tech_logos_element{
+    flex: 0 0 calc((100% - 20px)/5);
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.tech_logos_element_fig{
+    height: 100px;
+}
+
+.tech_logos_element_fig img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.contact_logos_element_fig{
+    height: 100px;
+}
+
+.contact_logos_element_fig img{
+    height: 100%;
+}
+
+ul{
+    text-align: left;
+}
+
+.section_footer{
+    background-color: var(--color1);
+    color: white;
+    margin: auto;
+}
+
+.contact_logos{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.contact_logos_element{
+    flex: 0 0 3;
+}
+
+.contact_logos_element_fig{
+    height: 100px;
+}
+
+.contact_logos_element_fig img{
+    height: 100%;
+}
+
+.contact_logos_element_fig_img2{
+    border-radius: 10px;
+} 
+
+.some_padding{
+    padding: 10px;
 }
