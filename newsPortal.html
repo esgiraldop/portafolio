@@ -3,411 +3,502 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>News</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <header>
-            <h1>
-                    Riwi news
-            </h1>
-        </header>
-
+    <header>
         <nav>
-            <p>
-                <a href="portfolio.html">Go back to home page</a>
-            </p>
-            <table id = "idx">
-                <tr>
-                    <th>Article title</th>
-                    <th>Author</th>
-                    <th>Date of publication</th>
-                    <th>Score</th>
-                </tr>
-                <tr>
-                    <td><a href="#soft">Soft skills in the labor market of web programming</a></td>
-                    <td>Maria Anders</td>
-                    <td>March 12, 2023</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td><a href="#the_three">The three stages of artificial intelligence</a></td>
-                    <td>Francisco Chang</td>
-                    <td>September 24, 1993</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td><a href="#what_is">What is the generative artificial intelligence</a></td>
-                    <td>Wenjing Seyong</td>
-                    <td>October 15, 2020</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td><a href="#openai">OpenAI, with its groundbreaking text-to-video generator: Sora</a></td>
-                    <td>Erick Giraldo</td>
-                    <td>April 14, 1995</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td><a  href="#N5">News #5</a></td>
-                    <td>Sebastian Ortega</td>
-                    <td>April 14, 1995</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td><a  href="#N6">News #6</a></td>
-                    <td>Norberto Perez</td>
-                    <td>October 14, 2006</td>
-                    <td>4</td>
-                </tr>
-            </table>
+            <div class="navbar_container">
+                <div class="logo">
+                    <figure>
+                        <img src="foto_erick.jpg">
+                    </figure>
+                </div>
+                <nav>
+                    <ul class="navbar_container_element">
+                        <li class="navbar_container_subelement">
+                            <a href="portfolio.html"><h3>Home</h3></a>
+                        </li>
+                        <li class="navbar_container_subelement">
+                            <a href="blog.html"><h3>Blog</h3></a>
+                        </li>
+                        <li class="navbar_container_subelement">
+                            <a href="about_me.html"><h3>About me</h3></a>
+                        </li>
+                        <li class="navbar_container_subelement">
+                            <a href="contact_info.html"><h3>Contact info</h3></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="section_title align_center">
+                Riwi news
+            </h1>
+            <div class="align_center inline_spacing">
+                <h3 class="some_padding" id=idx>Table of contents</h3>
+                <table class="content_table">
+                    <tr class="table_head">
+                        <th>Article title</th>
+                        <th>Author</th>
+                        <th>Date of publication</th>
+                        <th>Score</th>
+                    </tr>
+                    <tr>
+                        <td class="align_left"><a href="#soft">Soft skills in the labor market of web programming</a></td>
+                        <td>Maria Anders</td>
+                        <td>March 12, 2023</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td class="align_left"><a href="#the_three">The three stages of artificial intelligence</a></td>
+                        <td>Francisco Chang</td>
+                        <td>September 24, 1993</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td class="align_left"><a href="#what_is">What is the generative artificial intelligence</a></td>
+                        <td>Wenjing Seyong</td>
+                        <td>October 15, 2020</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td class="align_left"><a href="#openai">OpenAI, with its groundbreaking text-to-video generator: Sora</a></td>
+                        <td>Erick Giraldo</td>
+                        <td>April 14, 1995</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td class="align_left"><a  href="#N5">News #5</a></td>
+                        <td>Sebastian Ortega</td>
+                        <td>April 14, 1995</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td class="align_left"><a  href="#N6">News #6</a></td>
+                        <td>Norberto Perez</td>
+                        <td>October 14, 2006</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </div>
         </nav>
-
-        <main>
-            <article>
-                <h3 id="soft">Soft skills in the labor market of web programming</h3>
-                    <p>
-                        <small>
-                            <i>Author: Sandra Petrova. </i>
-                            <i>Date of publication: Unknown. </i>
-                            <i>Source: <a href = "https://adevait.com/blog/workplace/7-soft-skills-developers-2019">Adeva</a></i>
-                        </small>
-                    </p>
-                    
-                    <p>
-                        As we progress towards the future of work that will be driven by artificial
-                        intelligence, experts predict that soft skills in software engineering will
-                        become even more critical.
-                    </p>
-
-                    <img style = "width: 50%" src ="https://simpleprogrammer.com/wp-content/uploads/2021/02/Soft-Skills-Top.jpg">
-
-                    <p>
-                        Abilities such as empathy, critical thinking, and communication skills are
-                        likely to persist over time and become more sought-after than good-old hard
-                        skills for software engineer.
-                    </p>
-                    <p>
-                        A hard skill for a developer, for example, might be the ability to program
-                        software.
-                    </p>
-                    <p>
-                        A soft skill, on the other hand, is the ability to get along well with all
-                        the people with whom they interact.
-                    </p>
-
-                    <p>
-                        Below is a list of the most important soft skills for software developers. 
-                    </p>
-
-                    <div style = "text-align: left">
-                        <ul>
-                            <li>Problem-solving skills and critical thinking</li>
-                            <li>Communication skills</li>
-                            <li>People and interpersonal skills</li>
-                            <li>Self-awareness</li>
-                            <li>Self-learning</li>
-                            <li>Accountability</li>
-                            <li>Time management</li>
-                            <li>Emotional intelligence</li>
-                        </ul>
+    </header>
+    <main>
+        <div class="general_text inline_spacing">
+            <article class="Article">
+                <div class="article_container">
+                    <div class="article_title some_padding align_center">
+                        <h3 id="soft">Soft skills in the labor market of web programming</h3>
+                        <p>
+                            <small>
+                                <i>Author: Sandra Petrova. </i>
+                                <i>Date of publication: Unknown. </i>
+                                <i>Source: <a href = "https://adevait.com/blog/workplace/7-soft-skills-developers-2019">Adeva</a></i>
+                            </small>
+                        </p>
                     </div>
-                    
-                    <p align="justify">
-                    In summary, having good communication skills can lead to better collaboration and team
-                    cohesiveness. Being self-aware of one's strengths and weaknesses can improve one's
-                    accountability skills. And the result is a well-rounded developer with strong potential. 
-                    </p>
-
-                    <video src="istockphoto-1321343440-640_adpp_is.mp4" controls autoplay style = "width: 60%"></video>
-
-                    <p align="justify">
-                    And a well-rounded developer who possesses both technical software engineer abilities
-                    and soft skills will be crucial for the future of work.
-                    </p>
-                    <p>
-                        <small><a href="#idx">Take me to the table of contents</a></small>
-                    </p>
+                    <div class="article_content">
+                        <div class="article_multimedia">
+                            <img src ="https://simpleprogrammer.com/wp-content/uploads/2021/02/Soft-Skills-Top.jpg">
+                        </div>
+                        <p>
+                            As we progress towards the future of work that will be driven by artificial
+                            intelligence, experts predict that soft skills in software engineering will
+                            become even more critical.
+                        </p>
+                        <p>
+                            Abilities such as empathy, critical thinking, and communication skills are
+                            likely to persist over time and become more sought-after than good-old hard
+                            skills for software engineer.
+                        </p>
+                        <p>
+                            A hard skill for a developer, for example, might be the ability to program
+                            software. A soft skill, on the other hand, is the ability to get along well with all
+                            the people with whom they interact. Below is a list of the most important soft skills for software developers. 
+                        </p>
+                        <div>
+                            <p>
+                                <ul class="paragraph_list">
+                                    <li>Problem-solving skills and critical thinking</li>
+                                    <li>Communication skills</li>
+                                    <li>People and interpersonal skills</li>
+                                    <li>Self-awareness</li>
+                                    <li>Self-learning</li>
+                                    <li>Accountability</li>
+                                    <li>Time management</li>
+                                    <li>Emotional intelligence</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="article_multimedia">
+                            <video src="istockphoto-1321343440-640_adpp_is.mp4" controls autoplay></video>
+                        </div>
+                        <p>
+                            In summary, having good communication skills can lead to better collaboration and team
+                            cohesiveness. Being self-aware of one's strengths and weaknesses can improve one's
+                            accountability skills. And the result is a well-rounded developer with strong potential.
+                            A well-rounded developer who possesses both technical software engineer abilities
+                            and soft skills will be crucial for the future of work.
+                        </p>
+                        <p>
+                            <small><a href="#idx">Take me to the table of contents</a></small>
+                        </p>
+                    </div>
                     <hr></hr>
-                    <br></br>
+                </div>
             </article>
             
             <article>
-                <h3 id="the_three">The three stages of artificial intelligence.</h3>
-                    <p align="justify">
-                        <small>
-                            <i>Author: Gemo AI. </i>
-                            <i>Date of publication: Unknown. </i>
-                            <i>Source: <a href = "https://gemmo.ai/the-3-stages-of-ai/">Gemo AI</a></i>
-                        </small>
-                    </p>
-
-                    <p align="justify">
-                        When most people think of AI, they think in a broad sense: a form of computer science
-                        that gives machines some sort of human intelligence. However, to further understand it,
-                        AI can be broken into 3 main stages:
-                    </p>
-
-                    <div style="text-align: left;">
-                        <ol>
-                            <li>ANI: Artificial Narrow Intelligence</li>
-                            <li>AGI: Artificial General Intelligence</li>
-                            <li>ASI: Artificial Super Intelligence</li>
-                        </ol>
+                <div class="article_container">
+                    <div class="article_title some_padding align_center">
+                        <h3 id="the_three">The three stages of artificial intelligence.</h3>
+                        <p>
+                            <small>
+                                <i>Author: Gemo AI. </i>
+                                <i>Date of publication: Unknown. </i>
+                                <i>Source: <a href = "https://gemmo.ai/the-3-stages-of-ai/">Gemo AI</a></i>
+                            </small>
+                        </p>
                     </div>
+                    <div class="article_content">
+                        <p>
+                            When most people think of AI, they think in a broad sense: a form of computer science
+                            that gives machines some sort of human intelligence. However, to further understand it,
+                            AI can be broken into 3 main stages:
+                        </p>
 
-                    <img style = "width: 90%" src ="https://media.licdn.com/dms/image/D5612AQE5Kyc1eoVzhQ/article-cover_image-shrink_720_1280/0/1683562961393?e=2147483647&v=beta&t=ss0RBK9YHdEb-UL5T1lKEDplGkRC0ojPov7uzAWY87g">
+                        <div>
+                            <ol class="paragraph_list">
+                                <li>ANI: Artificial Narrow Intelligence</li>
+                                <li>AGI: Artificial General Intelligence</li>
+                                <li>ASI: Artificial Super Intelligence</li>
+                            </ol>
+                        </div>
+                        <div class="article_multimedia">
+                            <img src ="https://media.licdn.com/dms/image/D5612AQE5Kyc1eoVzhQ/article-cover_image-shrink_720_1280/0/1683562961393?e=2147483647&v=beta&t=ss0RBK9YHdEb-UL5T1lKEDplGkRC0ojPov7uzAWY87g">
+                        </div>
+                        <div>
+                            <ol class="paragraph_list">
+                                <li class="list_title">Stages of A: 1 – ANI (Artificial Narrow Intelligence)</li>
+                                    
+                                    <p>
+                                        Often called Weak AI, ANI is super-human at specific singular tasks.
+                                        Like teaching an AI machine to play chess! It will master singular
+                                        tasks beyond human potential with incredible consistency.
+                                    </p>
+                                
+                                <li class="list_title">Stages of AI: 2 – AGI (Artificial General Intelligence)</li>
+                                <p>
+                                    AGI would mean a machine would be capable of understanding the world
+                                    as well as any human. All while maintaining the same capacity to learn
+                                    how to carry out a huge range of tasks. The reality?  AGI is not yet
+                                    among us. It is a hypothetical form of AI. The potential is there but
+                                    some believe it to be decades away!
 
+                                    To determine if a machine is truly AGI, it has to pass the Turing, 
+                                    the coffee, the robot college and the employment tests.
 
-                    <div style="text-align: left;">
-                        <ol>
-                            <li><h4>Stages of A: 1 – ANI (Artificial Narrow Intelligence)</h4></li>
-                            <p>
-                                Often called Weak AI, ANI is super-human at specific singular tasks.
-                                Like teaching an AI machine to play chess! It will master singular
-                                tasks beyond human potential with incredible consistency.
-                            </p>
-                            <li><h4>Stages of AI: 2 – AGI (Artificial General Intelligence)</h4></li>
-                            <p>
-                                AGI would mean a machine would be capable of understanding the world
-                                as well as any human. All while maintaining the same capacity to learn
-                                how to carry out a huge range of tasks. The reality?  AGI is not yet
-                                among us. It is a hypothetical form of AI. The potential is there but
-                                some believe it to be decades away!
+                                </p>
+                                <li class="list_title">Stages of AI: 3 – ASI (Artificial Super Intelligence)</li>
+                                <p>
+                                    Oxford Philosopher Nick Bostrom describes ASI as: “any intellect that
+                                    greatly exceeds the cognitive performance of humans in virtually all
+                                    domains of interest.” Again, this is a hypothetical agent and one which
+                                    is decades away.
 
-                                To determine if a machine is truly AGI, it has to pass the Turing, 
-                                the coffee, the robot college and the employment tests.
+                                    ASI has huge potential but it also has huge risk. Stephen Hawking feared
+                                    its development could be the worst event in the history of our civilisation,
+                                    and even ‘spell the end of the human race‘. If we create super-intelligent
+                                    machines we may put our own existence at risk. However, right now this is
+                                    just the plot for another sci-fi film.
+                                </p>
+                            </ol>
+                        </div>
+                        
+                        <p>
+                            The reality is that AI is a tool for humans to better our existence. Advancements
+                            in artificial intelligence mean the sky’s the limit! The question is – will the
+                            limit bring more positives or negatives?
 
-                            </p>
-                            <li><h4>Stages of AI: 3 – ASI (Artificial Super Intelligence)</h4></li>
-                            <p>
-                                Oxford Philosopher Nick Bostrom describes ASI as: “any intellect that
-                                greatly exceeds the cognitive performance of humans in virtually all
-                                domains of interest.” Again, this is a hypothetical agent and one which
-                                is decades away.
+                        </p>
+                        <div class="article_multimedia">
+                            <video src="istockphoto-1691824704-640_adpp_is.mp4" controls autoplay></video>
+                        </div>
+                        
 
-                                ASI has huge potential but it also has huge risk. Stephen Hawking feared
-                                its development could be the worst event in the history of our civilisation,
-                                and even ‘spell the end of the human race‘. If we create super-intelligent
-                                machines we may put our own existence at risk. However, right now this is
-                                just the plot for another sci-fi film.
-                            </p>
-                        </ol>
+                        <p>
+                            As we integrate AI into our society, ethical concerns must be at the centre of our
+                            thinking. In an AI-driven society, how can we assure equality, minimise bias, and
+                            protect privacy? Will AI improve our human experience, or will it unintentionally
+                            deepen the gaps in inequality?
+
+                            The desired outcome would be for AI to be an ally in the fight for a better world,
+                            but ideas must be carefully directed before they can become a reality. Furthermore,
+                            discussions around AI should not be limited to engineers or ethical thinkers; it
+                            should include everyone. Every voice, from legislators to educators, entrepreneurs
+                            to citizens, provides a crucial perspective to how we develop this technology.
+
+                            We must tread carefully with AI whilst simultaneously embracing all the stages of it.
+                        </p>
+                        <p>
+                            <small><a href="#idx">Take me to the table of contents</a></small>
+                        </p>
                     </div>
-                    
-                    <p align="justify">
-                        The reality is that AI is a tool for humans to better our existence. Advancements
-                        in artificial intelligence mean the sky’s the limit! The question is – will the
-                        limit bring more positives or negatives?
-
-                    </p>
-
-                    <video src="istockphoto-1691824704-640_adpp_is.mp4" controls autoplay style = "width: 60%"></video>
-
-                    <p align="justify">
-                        As we integrate AI into our society, ethical concerns must be at the centre of our
-                        thinking. In an AI-driven society, how can we assure equality, minimise bias, and
-                        protect privacy? Will AI improve our human experience, or will it unintentionally
-                        deepen the gaps in inequality?
-
-                        The desired outcome would be for AI to be an ally in the fight for a better world,
-                        but ideas must be carefully directed before they can become a reality. Furthermore,
-                        discussions around AI should not be limited to engineers or ethical thinkers; it
-                        should include everyone. Every voice, from legislators to educators, entrepreneurs
-                        to citizens, provides a crucial perspective to how we develop this technology.
-
-                        We must tread carefully with AI whilst simultaneously embracing all the stages of it.
-                    </p>
-                    <p>
-                        <small><a href="#idx">Take me to the table of contents</a></small>
-                    </p>
-                    <hr></hr>
-                    <br></br>
+                        <hr></hr>
+                </div>
             </article>
 
             <article>
-                <h3 id="what_is">What is the generative artificial intelligence (GenAI)?.</h3>
-                    <p align="justify">
-                        <small>
-                            <i>Author: George Lawton. </i>
-                            <i>Date of publication: Unknown. </i>
-                            <i>Source: <a href = "https://www.techtarget.com/searchenterpriseai/definition/generative-AI">Tech Target</a></i>
-                        </small>
-                    </p>
+                <div class="article_container">
+                    <div class="article_title some_padding align_center">
+                        <h3 id="what_is">What is the generative artificial intelligence (GenAI)?.</h3>
+                        <p>
+                            <small>
+                                <i>Author: George Lawton. </i>
+                                <i>Date of publication: Unknown. </i>
+                                <i>Source: <a href = "https://www.techtarget.com/searchenterpriseai/definition/generative-AI">Tech Target</a></i>
+                            </small>
+                        </p>
+                    </div>
+                    <div class="article_content">
+                        <p>
+                            Generative AI is a type of artificial intelligence technology that can produce various
+                            types of content, including text, imagery, audio and synthetic data. The recent buzz
+                            around generative AI has been driven by the simplicity of new user interfaces for
+                            creating high-quality text, graphics and videos in a matter of seconds. Here you can
+                            see a video tutorial of OpenAI's DALL.E2, one of the most powerful text-to-image
+                            generator currently available.
+                        </p>
+                        <div class="article_multimedia">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/iBHAja_GV5I?si=YzYw9YnX9AdwZIJj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
 
-                    <p align="justify">
-                        Generative AI is a type of artificial intelligence technology that can produce various
-                        types of content, including text, imagery, audio and synthetic data. The recent buzz
-                        around generative AI has been driven by the simplicity of new user interfaces for
-                        creating high-quality text, graphics and videos in a matter of seconds. Here you can
-                        see a video tutorial of OpenAI's DALL.E2, one of the most powerful text-to-image
-                        generator currently available.
-                    </p>
+                        <p>
+                            The technology, it should be noted, is not brand-new. Generative AI was introduced in
+                            the 1960s in chatbots. But it was not until 2014, with the introduction of generative
+                            adversarial networks, or GANs -- a type of machine learning algorithm -- that generative
+                            AI could create convincingly authentic images, videos and audio of real people.
+                        </p>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iBHAja_GV5I?si=7btazo6zdIebv2H6&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p>
+                            On the one hand, this newfound capability has opened up opportunities that include
+                            better movie dubbing and rich educational content. It also unlocked concerns about
+                            deepfakes -- digitally forged images or videos -- and harmful cybersecurity attacks
+                            on businesses, including nefarious requests that realistically mimic an employee's boss.
+                        </p>
 
-                    <p align="justify">
-                        The technology, it should be noted, is not brand-new. Generative AI was introduced in
-                        the 1960s in chatbots. But it was not until 2014, with the introduction of generative
-                        adversarial networks, or GANs -- a type of machine learning algorithm -- that generative
-                        AI could create convincingly authentic images, videos and audio of real people.
-                    </p>
+                        <p>
+                            Two additional recent advances that will be discussed in more detail below have played
+                            a critical part in generative AI going mainstream: transformers and the breakthrough
+                            language models they enabled. Transformers are a type of machine learning that made
+                            it possible for researchers to train ever-larger models without having to label all of
+                            the data in advance. New models could thus be trained on billions of pages of text,
+                            resulting in answers with more depth. In addition, transformers unlocked a new notion
+                            called attention that enabled models to track the connections between words across pages,
+                            chapters and books rather than just in individual sentences. And not just words:
+                            Transformers could also use their ability to track connections to analyze code, proteins,
+                            chemicals and DNA.
+                        </p>
 
-                    <p align="justify">
-                        On the one hand, this newfound capability has opened up opportunities that include
-                        better movie dubbing and rich educational content. It also unlocked concerns about
-                        deepfakes -- digitally forged images or videos -- and harmful cybersecurity attacks
-                        on businesses, including nefarious requests that realistically mimic an employee's boss.
-                    </p>
+                        <p>
+                            The rapid advances in so-called large language models (LLMs) -- i.e., models with billions
+                            or even trillions of parameters -- have opened a new era in which generative AI models can
+                            write engaging text, paint photorealistic images and even create somewhat entertaining
+                            sitcoms on the fly. Moreover, innovations in multimodal AI enable teams to generate content
+                            across multiple types of media, including text, graphics and video. This is the basis for
+                            tools like Dall-E that automatically create images from a text description or generate text
+                            captions from images.
+                        </p>
 
-                    <p align="justify">
-                        Two additional recent advances that will be discussed in more detail below have played
-                        a critical part in generative AI going mainstream: transformers and the breakthrough
-                        language models they enabled. Transformers are a type of machine learning that made
-                        it possible for researchers to train ever-larger models without having to label all of
-                        the data in advance. New models could thus be trained on billions of pages of text,
-                        resulting in answers with more depth. In addition, transformers unlocked a new notion
-                        called attention that enabled models to track the connections between words across pages,
-                        chapters and books rather than just in individual sentences. And not just words:
-                        Transformers could also use their ability to track connections to analyze code, proteins,
-                        chemicals and DNA.
-                    </p>
-
-                    <p align="justify">
-                        The rapid advances in so-called large language models (LLMs) -- i.e., models with billions
-                        or even trillions of parameters -- have opened a new era in which generative AI models can
-                        write engaging text, paint photorealistic images and even create somewhat entertaining
-                        sitcoms on the fly. Moreover, innovations in multimodal AI enable teams to generate content
-                        across multiple types of media, including text, graphics and video. This is the basis for
-                        tools like Dall-E that automatically create images from a text description or generate text
-                        captions from images.
-                    </p>
-
-                    <p align="justify">
-                        These breakthroughs notwithstanding, we are still in the early days of using generative AI
-                        to create readable text and photorealistic stylized graphics. Early implementations have
-                        had issues with accuracy and bias, as well as being prone to hallucinations and spitting
-                        back weird answers. Still, progress thus far indicates that the inherent capabilities of
-                        this generative AI could fundamentally change enterprise technology how businesses operate.
-                        Going forward, this technology could help write code, design new drugs, develop products,
-                        redesign business processes and transform supply chains.
-                    </p>
-                    <p>
-                        <small><a href="#idx">Take me to the table of contents</a></small>
-                    </p>
+                        <p>
+                            These breakthroughs notwithstanding, we are still in the early days of using generative AI
+                            to create readable text and photorealistic stylized graphics. Early implementations have
+                            had issues with accuracy and bias, as well as being prone to hallucinations and spitting
+                            back weird answers. Still, progress thus far indicates that the inherent capabilities of
+                            this generative AI could fundamentally change enterprise technology how businesses operate.
+                            Going forward, this technology could help write code, design new drugs, develop products,
+                            redesign business processes and transform supply chains.
+                        </p>
+                        <p>
+                            <small><a href="#idx">Take me to the table of contents</a></small>
+                        </p>
+                    </div>
                     <hr></hr>
-                    <br></br>
+                </div>
             </article>
             
             <article>
-                <h3 id="openai">OpenAI, with its groundbreaking text-to-video generator: Sora</h3>
-                    <p align="justify">
-                        <small>
-                            <i>Author: Steven Levy</i>
-                            <i>Date of publication: February 15, 2024</i>
-                            <i>Source: <a href = "https://www.wired.com/story/openai-sora-generative-ai-video/">Wired</a></i>
-                        </small>
-                    </p>
-                    <p align="justify">
-                        Companies from giants like Google to startups like Runway, have already
-                        revealed text-to-video AI projects. But OpenAI says that Sora is
-                        distinguished by its striking photorealism—something I haven’t seen in
-                        its competitors—and its ability to produce longer clips than the brief
-                        snippets other models typically do, up to one minute.
-                    </p>
+                <div class="article_container">
+                    <div class="some_padding align_center">
+                        <h3 id="openai">OpenAI, with its groundbreaking text-to-video generator: Sora</h3>
+                        <p>
+                            <small>
+                                <i>Author: Steven Levy</i>
+                                <i>Date of publication: February 15, 2024</i>
+                                <i>Source: <a href = "https://www.wired.com/story/openai-sora-generative-ai-video/">Wired</a></i>
+                            </small>
+                        </p>
+                    </div> 
+                    <div class="article_content">
+                        <p>
+                            Companies from giants like Google to startups like Runway, have already
+                            revealed text-to-video AI projects. But OpenAI says that Sora is
+                            distinguished by its striking photorealism—something I haven’t seen in
+                            its competitors—and its ability to produce longer clips than the brief
+                            snippets other models typically do, up to one minute.
+                        </p>
+                        <div class="article_multimedia">
+                            <img src ="https://coingape.com/wp-content/uploads/2024/02/OpenAI-SORA.jpg">
+                        </div>
+                        <p>
+                            The researchers I spoke to won’t say how long it takes to render all that video, but
+                            when pressed, they described it as more in the “going out for a burrito”
+                            ballpark than “taking a few days off.” If the hand-picked examples I saw
+                            are to be believed, the effort is worth it.
+                        </p>
+                        
+                        <p>
+                            OpenAI didn’t let me enter my own prompts, but it shared four instances
+                            of Sora’s power. (None approached the purported one-minute limit; the
+                            longest was 17 seconds.)
+                        </p>
 
-                    <img style = "width: 70%" src ="https://coingape.com/wp-content/uploads/2024/02/OpenAI-SORA.jpg">
+                        <p>
+                            The first came from a detailed prompt that sounded like an obsessive
+                            screenwriter’s setup: “Beautiful, snowy Tokyo city is bustling. The
+                            camera moves through the bustling city street, following several
+                            people enjoying the beautiful snowy weather and shopping at nearby
+                            stalls. Gorgeous sakura petals are flying through the wind along
+                            with snowflakes.”
+                        </p>
 
-                    <p align="justify">
-                        The researchers I spoke to won’t say how long it takes to render all that video, but
-                        when pressed, they described it as more in the “going out for a burrito”
-                        ballpark than “taking a few days off.” If the hand-picked examples I saw
-                        are to be believed, the effort is worth it.
-                    </p>
-                    
-                    <p align="justify">
-                        OpenAI didn’t let me enter my own prompts, but it shared four instances
-                        of Sora’s power. (None approached the purported one-minute limit; the
-                        longest was 17 seconds.)
-                    </p>
+                        <p>
+                            The result is a convincing view of what is unmistakably Tokyo, in that
+                            magic moment when snowflakes and cherry blossoms coexist. The virtual
+                            camera, as if affixed to a drone, follows a couple as they slowly stroll
+                            through a streetscape. One of the passersby is wearing a mask. Cars
+                            rumble by on a riverside roadway to their left, and to the right
+                            shoppers flit in and out of a row of tiny shops. You can see the video
+                            of the result next:
+                        </p>
 
-                    <p align="justify">
-                        The first came from a detailed prompt that sounded like an obsessive
-                        screenwriter’s setup: “Beautiful, snowy Tokyo city is bustling. The
-                        camera moves through the bustling city street, following several
-                        people enjoying the beautiful snowy weather and shopping at nearby
-                        stalls. Gorgeous sakura petals are flying through the wind along
-                        with snowflakes.”
-                    </p>
-
-                    <p align="justify">
-                        The result is a convincing view of what is unmistakably Tokyo, in that
-                        magic moment when snowflakes and cherry blossoms coexist. The virtual
-                        camera, as if affixed to a drone, follows a couple as they slowly stroll
-                        through a streetscape. One of the passersby is wearing a mask. Cars
-                        rumble by on a riverside roadway to their left, and to the right
-                        shoppers flit in and out of a row of tiny shops. You can see the video
-                        of the result next:
-                    </p>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kHwFMFu9PhA?si=2FSvgjMoOjA2dCF-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                    <p align="justify">
-                        As for now, OpenAI is faced with the huge task of making sure that Sora
-                        isn’t a misinformation train wreck. But after that, the long countdown
-                        begins until the next Christopher Nolan or Celine Song gets a statuette
-                        for wizardry in prompting an AI model. The envelope, please!
-                    </p>
-                    <p>
-                        <small><a href="#idx">Take me to the table of contents</a></small>
-                    </p>
+                        <div class="article_multimedia">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kHwFMFu9PhA?si=dHDu2VqugCnaaeDV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <p>
+                            As for now, OpenAI is faced with the huge task of making sure that Sora
+                            isn’t a misinformation train wreck. But after that, the long countdown
+                            begins until the next Christopher Nolan or Celine Song gets a statuette
+                            for wizardry in prompting an AI model. The envelope, please!
+                        </p>
+                        <p>
+                            <small><a href="#idx">Take me to the table of contents</a></small>
+                        </p>
+                    </div>
                     <hr></hr>
-                    <br></br>
+                </div>
             </article>
 
             <article>
-                <h3 id="N5">News #5.</h3>
-                    <br></br>
-                    <a target="_blank" href = "https://es.wikipedia.org/wiki/Guido_van_Rossum">
-                        <img style = "width: 30%" src ="https://upload.wikimedia.org/wikipedia/commons/6/66/Guido_van_Rossum_OSCON_2006.jpg">
-                    </a>
-                    <p align="justify">
-                        <mark>TBD</mark>
-                    </p>
-                    <p align="justify">
-                        <small><i>Date of publication: April 14, 1995</i></small>
-                    </p>
-                    <p>
-                        <small><a href="#idx">Take me to the table of contents</a></small>
-                    </p>
+                <div class="article_container">
+                    <div class="article_title some_padding align_center">
+                        <h3 id="N5">A Medellín llegó Riwi, un centro de entrenamiento en desarrollo de software que le apuesta con becas a jóvenes antioqueños</h3>
+                        <p>
+                            <small>
+                                <i>Author: Juan Pablo Alvarez Muñoz, El Colombiano</i>
+                                <i>Date of publication: Diciembre 28 de 2023</i>
+                                <i>Source: <a href = "https://www.elcolombiano.com/medellin/a-medellin-llego-riwi-un-centro-entrenamiento-en-desarrollo-software-que-apuesta-con-becas-a-jovenes-antioquenos-LH23427873">El Colombiano</a></i>
+                            </small>
+                        </p>
+                    </div>
+                    <div class="article_content">
+                        <p>
+                            No cabe duda que el mundo de la tecnología avanza cada día y en el ecosistema laboral este tema no es ajeno, por eso los jóvenes interesados en el tema buscan alternativas que los puedan ayudar a posicionarse en las empresas trabajando en dichas áreas.
+                        </p>
+                        <p>
+                            Una de ella es Riwi, un ecosistema de desarrolladores de software que ofrece un centro de entrenamiento en la ciudad de Medellín para jóvenes que quieran sobresalir en la industria.
+                        </p>
+                        <p>
+                            Este proyecto, que tiene como objetivo graduar desarrolladores de software altamente competitivos, llegó a la ciudad de Medellín para implementar su modelo de entrenamiento presencial que cuenta con una duración de 8 meses para ayudar a posicionarlos en el mundo laboral de las herramientas digitales y el desarrollo de software.
+                        </p>
+                        <div class="article_multimedia">
+                            <img src ="Riwi foto.png">
+                        </div>
+                        <p>
+                            Actualmente, Riwi cuenta con 300 jóvenes que fueron seleccionados para la primera etapa y fueron acreedores de una beca al 100% para comenzar a estudiar, ya que según la entidad, una de las características principales de ellos es que “no son un crédito educativo, el único pago que exigen es la pasión y el compromiso de los jóvenes”.
+                        </p>
+                        <p>
+                            “Nuestra meta consiste en brindar oportunidades y herramientas a jóvenes para que puedan transformar su vida, pues hemos evidenciado que en Colombia existe una gran escasez de desarrolladores y las empresas se enfrentan a una alta rotación de talento en el campo de la tecnología, además queremos servir como plataforma que facilite a las personas el acceso a su primer empleo, con una remuneración justa, permitiéndoles así dar continuidad a su recorrido en la educación formal”, concluyó la directora Pérez.
+                        </p>
+                    </div>
+                    
                     <hr></hr>
-                    <br></br>
-
-                <h3 id="N6">News #6.</h3>
-                    <br></br>
-                    <a target="_blank" href = "https://es.wikipedia.org/wiki/Linus_Torvalds">
-                        <img style = "width: 30%" src ="https://cdn.britannica.com/99/124299-050-4B4D509F/Linus-Torvalds-2012.jpg">
-                    </a>
-                    <p align="justify">
-                        <mark>TBD</mark>
-                    </p>
-                    <p align="justify">
-                        <small><i>Date of publication: April 14, 1995</i></small>
-                    </p>
-                    <p>
-                        <small><a href="#idx">Take me to the table of contents</a></small>
-                    </p>
-                    <hr></hr>
-                    <br></br>
+                </div>
             </article>
-        </main>
-        <footer>
-            <h2 id="contact">Contact info</h2>
-            <p>
-                <a href="mailto:erickgiraldo94@gmail.com"><img style="width: 11%" src="https://upload.wikimedia.org/wikipedia/commons/5/50/TK_email_icon.svg"></a>
-                <a href= "https://github.com/esgiraldop"><img style="width: 11%" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></a>
-                <a href="https://www.linkedin.com/in/092b2a116/"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"></a>
-            </p>
-            <small>© 2024 Erick Giraldo. All rights reserved.</small>
-        </footer>
+
+            <article>
+                <div class="article_container">
+                    <div class=" article_title some_padding align_center">
+                        <h3 id="N6">La primera cohorte de Talento Tech iniciará su formación entre enero y abril de 2024</h3>
+                        <p>
+                            <small>
+                                <i>Author: MinTic</i>
+                                <i>Date of publication: Diciembre 27 de 2023</i>
+                                <i>Source: <a href = "https://www.mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/333597:La-primera-cohorte-de-Talento-Tech-iniciara-su-formacion-entre-enero-y-abril-de-2024">MinTic</a></i>
+                            </small>
+                        </p>
+                    </div>
+                    <div class="article_content">
+                        <p>
+                            Cada día está más cerca el inicio de la etapa de aprendizaje de 'Talento Tech', el programa basado en la metodología de 'bootcamps', para llevar formación en habilidades digitales a todo el país, de manera intensiva y gratuita. El próximo año, 18.374 preinscritos de Bogotá y los departamentos de Boyacá, Cundinamarca, Cauca y Nariño, serán los primeros en iniciar clases entre enero y abril del 2024 conformando la primera cohorte de estudiantes.
+                        </p>
+                        <div class="article_multimedia">
+                            <img src ="https://www.mintic.gov.co/portal/715/articles-326768_foto_marquesina.jpg">
+                        </div>
+                        <p>
+                            'Talento Tech' tuvo su primera fase de convocatoria entre el 14 de septiembre y el 18 de diciembre de 2023, momento en que se alcanzaron más de 78.000 personas registradas. Luego, como parte del proceso, los días 16, 17 y 18 de diciembre de 2023 un total de 38.159 preinscritos presentaron una prueba virtual que medía su nivel de habilidades y conocimientos, según el Marco Europeo de Competencias Digitales (Digcomp). Las personas pueden validar el resultado de su prueba de conocimientos hasta el 11 de enero de 2024, iniciando sesión y descargando la información en el enlace <a href="https://talentotech.gov.co/">https://talentotech.gov.co/</a>.
+                        </p>
+                    </div>
+                    <hr></hr>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="section_footer">
+            <div class="align_center">
+                <div class="contact_title some_padding">
+                    <h2 id="contact">Contact info</h2>
+                </div>
+                <div class="contact_logos">
+                    <div class="contact_logos_element fig1">
+                        <a href="mailto:erickgiraldo94@gmail.com">
+                            <figure class="contact_logos_element_fig">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/TK_email_icon.svg">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="contact_logos_element">
+                        <a href= "https://github.com/esgiraldop">
+                            <figure class="contact_logos_element_fig">
+                                <img class="contact_logos_element_fig_img2" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="contact_logos_element fig3">
+                        <a href="https://www.linkedin.com/in/092b2a116/">
+                            <figure class="contact_logos_element_fig">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg">
+                            </figure>
+                        </a>
+                    </div>
+            </div>
+            </div>
+            <div class="align_center some_padding">
+                <small>© 2024 Erick Giraldo. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

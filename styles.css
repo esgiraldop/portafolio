@@ -52,7 +52,20 @@ img {
 }
 
 .inline_spacing{
-    line-height: 1.5;
+    line-height: 1.3;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+ul{
+    text-align: left;
+}
+
+hr{
+    margin: 3% auto;
+    width: 70%;
 }
 
 .header{
@@ -108,6 +121,8 @@ img {
 .navbar_container_subelement{
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 
 .navbar_container_subelement a, navbar_container_subelement a:visited{
@@ -115,28 +130,22 @@ img {
     color: white;
 }
 
-.section_projects{
+.align_center{
     text-align: center;
 }
 
-.used_technologies{
+.align_left{
+    text-align: left;
+}
+
+.section_title{
+    margin: 5%;
     text-align: center;
 }
 
 .general_text{
-    text-align: center;
-}
-
-.section__contact{
-    text-align: center;
-}
-
-.rights_text{
-    text-align: center;
-}
-
-.section_projects_title{
-    margin: 5%;
+    margin: 5% 5%;
+    text-align: justify;
 }
 
 .container_projects{
@@ -154,6 +163,12 @@ img {
     flex: 0 0 calc((100% - 20px)/3);
     max-width: 400px;
     min-width: 300px;
+    transition: transform 0.8s, opacity 0.8s;
+}
+
+.container_projects_element:hover{
+    transform: scale(1.02);
+    opacity: 50%;
 }
 
 .container_projects_element_figure_figure{
@@ -168,10 +183,6 @@ img {
 
 .container_projects_element_text{
     margin: 5% 5%;
-}
-
-.general_text{
-    margin: 5% 15%;
 }
 
 .tech_logos{
@@ -208,9 +219,6 @@ img {
     height: 100%;
 }
 
-ul{
-    text-align: left;
-}
 
 .section_footer{
     background-color: var(--color1);
@@ -243,5 +251,61 @@ ul{
 } 
 
 .some_padding{
-    padding: 10px;
+    padding: 20px;
+}
+
+.content_table{
+    margin: 0 auto;
+    width: 90%;
+    vertical-align: center;
+    border-collapse: collapse;
+}
+
+.table_head{
+    background-color: var(--color2);
+    color: white;
+}
+
+.content_table th, .content_table td{
+    padding: 5px;
+}
+
+.content_table tr{
+    transition: transform 0.8s, background-color 0.8s;
+}
+
+.content_table tr:hover:not(.table_head){
+    transform: none;
+    background-color: var(--color3);
+}
+
+tr:nth-child(even){
+    background-color: #0064a338;
+}
+
+.article_multimedia{
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    object-fit: fill;
+}
+
+
+.paragraph_list{
+    list-style-position: inside;
+}
+
+.list_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article_container{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 1%;
 }
