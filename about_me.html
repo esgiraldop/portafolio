@@ -4,50 +4,99 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About me</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <center>
-            <head>
-                <p style="text-align: left;">
-                    <a href="portfolio.html">Go back to home page</a>
-                </p>
-                <h1>
-                    About me
-                </h1>
-            </head>
-            <nav>
-
-            </nav>
-            <main>
-                <br>
-                    <img style="width: 30%;" src="Erick_Haarlem.jpeg">
-                    <br>
-                <p style="text-align: justify;">
-                    Engineer with a Master's degree in engineering with an undergraduate
-                    degree in aeronautical engineering, with a high English level, strong
-                    oral and written communication skills, and background in several fields
-                    such as composite materials, computational fluid simulations,
-                    field experiments, and statistical analysis. His experience in his
-                    master's and in his current job has made him gain a strong analytical
-                    way of thinking, always seeking to deliver conclusions based on facts
-                    and data, as well as teamwork skills and autonomous work skills. He has 
-                    an intermediate-to-high level in Python, Matlab, Excel, MySQL, and Tableau;
-                    tools that he has had the opportunity to apply in his current job in tasks
-                    such as data scraping (web, pdf, text), data cleaning, modeling, and analysis.
-                </p>
-                <p style="text-align: justify;">
-                    Currently, he works as an aviation consultant and at the same time is studying
-                    an intensive curse on software development.
-                </p>
-            </main>
-            <footer>
-                <h2 id="contact">Contact info</h2>
-                <p>
-                    <a href="mailto:erickgiraldo94@gmail.com"><img style="width: 11%" src="https://upload.wikimedia.org/wikipedia/commons/5/50/TK_email_icon.svg"></a>
-                    <a href= "https://github.com/esgiraldop"><img style="width: 11%" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></a>
-                    <a href="https://www.linkedin.com/in/092b2a116/"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"></a>
-                </p>
-                <small>© 2024 Erick Giraldo. All rights reserved.</small>
-            </footer>
-        </center>
+        <header class="header_secondary_pages">
+            <div class="navbar_container">
+                <div class="logo">
+                    <figure>
+                        <img src="foto_erick.jpg">
+                    </figure>
+                </div>
+                <nav>
+                    <ul class="navbar_container_element">
+                        <li class="navbar_container_subelement">
+                            <a href="portfolio.html"><h3>Home</h3></a>
+                        </li>
+                        <li class="navbar_container_subelement">
+                            <a href="blog.html"><h3>News</h3></a>
+                        </li>
+                        <li class="navbar_container_subelement">
+                            <a href="about_me.html"><h3>Blog</h3></a>
+                        </li>
+                        <li class="navbar_container_subelement">
+                            <a href="contact_info.html"><h3>Contact info</h3></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="head_title_secondary">
+                About me
+            </h1>
+        </header>
+        <main>
+            <article>
+                <div class="general_text inline_spacing">
+                    <section>
+                        <div class="article_multimedia">
+                            <img src="Erick_Haarlem.jpeg">
+                        </div>
+                        <p>
+                            Engineer with a Master's degree in engineering with an undergraduate
+                            degree in aeronautical engineering, with a high English level, strong
+                            oral and written communication skills, and background in several fields
+                            such as composite materials, computational fluid simulations,
+                            field experiments, and statistical analysis. His experience in his
+                            master's and in his current job has made him gain a strong analytical
+                            way of thinking, always seeking to deliver conclusions based on facts
+                            and data, as well as teamwork skills and autonomous work skills. He has 
+                            an intermediate-to-high level in Python, Matlab, Excel, MySQL, and Tableau;
+                            tools that he has had the opportunity to apply in his current job in tasks
+                            such as data scraping (web, pdf, text), data cleaning, modeling, and analysis.
+                        </p>
+                        <p>
+                            Currently, he works as an aviation consultant and at the same time is studying
+                            an intensive curse on software development.
+                        </p>
+                    </section>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <div class="section_footer">
+                <div class="align_center">
+                    <div class="contact_title some_padding">
+                        <h2 id="contact">Contact info</h2>
+                    </div>
+                    <div class="contact_logos">
+                        <div class="contact_logos_element fig1">
+                            <a href="mailto:erickgiraldo94@gmail.com">
+                                <figure class="contact_logos_element_fig">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/TK_email_icon.svg">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="contact_logos_element">
+                            <a href= "https://github.com/esgiraldop">
+                                <figure class="contact_logos_element_fig">
+                                    <img class="contact_logos_element_fig_img2" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="contact_logos_element fig3">
+                            <a href="https://www.linkedin.com/in/092b2a116/">
+                                <figure class="contact_logos_element_fig">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg">
+                                </figure>
+                            </a>
+                        </div>
+                </div>
+                </div>
+                <div class="align_center some_padding">
+                    <small>© 2024 Erick Giraldo. All rights reserved.</small>
+                </div>
+            </div>
+        </footer>
+        
     </body>

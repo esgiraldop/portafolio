@@ -77,6 +77,12 @@ hr{
     position: relative;
 }
 
+.header_secondary_pages{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
 .navbar_container{
     display: flex;
     flex-direction: row;
@@ -88,7 +94,7 @@ hr{
     background-color: var(--color1);
     color: white;
     z-index: 1000;
-    /* position: fixed; */
+    position: fixed;
 }
 
 
@@ -103,6 +109,14 @@ hr{
     color: white;
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.head_title_secondary{
+    position: absolute;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -226,6 +240,12 @@ hr{
     margin: auto;
 }
 
+.section_footer_absolute{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
 .contact_logos{
     width: 100%;
     justify-content: center;
@@ -252,6 +272,11 @@ hr{
 
 .some_padding{
     padding: 20px;
+}
+
+.content_table_container{
+    position: relative;
+    top: 55%;
 }
 
 .content_table{
@@ -290,10 +315,13 @@ tr:nth-child(even){
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background-color: green;
     object-fit: fill;
 }
 
+.big_picture{
+    width: 50%;
+    text-align: right;
+}
 
 .paragraph_list{
     list-style-position: inside;
@@ -308,4 +336,10 @@ tr:nth-child(even){
     width: 100%;
     margin: 0 auto;
     padding-bottom: 1%;
+}
+
+.contact_container{
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
